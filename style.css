@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --ff: 'Roboto', sans-serif
+}
+
+body {
+    background-color: #000000;
+
+    color: white;
+}
+
+nav {
+    width: 112.0rem;
+    height: 4.8rem;
+    margin: 7.5rem auto;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: rebeccapurple;
+}
+
+#logo {
+    width: 18.6rem;
+    height: 3.27rem;
+
+    background-color: red;
+
+}
+
+.add {
+    background-color: blue;
+}
+
+nav input {
+    font-family: var(--ff);
+    font-size: 1.6rem;
+    height: 4.8rem;
+    width: 45rem;
+}
+
+nav button {
+    height: 4.8rem;
+}
