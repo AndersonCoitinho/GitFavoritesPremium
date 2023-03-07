@@ -11,8 +11,8 @@
 
 body {
     background-color: #000000;
-
     color: white;
+    font-family: var(--ff);
 }
 
 nav {
@@ -21,20 +21,11 @@ nav {
     margin: 7.5rem auto;
     display: flex;
     justify-content: space-between;
-
-    background-color: rebeccapurple;
 }
 
 #logo {
     width: 18.6rem;
     height: 3.27rem;
-
-    background-color: red;
-
-}
-
-.add {
-    background-color: blue;
 }
 
 nav input {
@@ -45,5 +36,81 @@ nav input {
 }
 
 nav button {
+    font-family: var(--ff);
+    text-transform: uppercase;
+    color: #FFF;
     height: 4.8rem;
+    border: none;
+    background-color: #065E7C;
+    border-radius: 5px;
+    width: 17rem;
+}
+
+table {
+    margin: auto;
+    width: 1120px;
+    border-collapse: collapse;
+    font-size: 2rem;
+    border: 1px solid #4A808C;
+}
+
+table tr th {
+    background-color: #092D38;
+    height: 6.4rem;
+    text-align: left;
+    padding: 16px 24px 16px 40px;
+    gap: 12px;
+    
+}
+
+table tr:nth-child(even) { /* pega o numero de linha "par"*/
+    background: #06181C;
+}
+
+table tr:nth-child(odd) { /* pega o numero de linha "impar"*/
+    background: rgba(6, 22, 27, 0.5);
+}
+
+tbody tr {
+    border: 1px solid #4A808C;
+}
+
+tbody tr td {
+    text-align: left;
+    padding: 2.4rem 1rem 2.4rem 4rem;
+}
+
+td.user img {
+    width: 5.6rem;
+    height: 5.6rem;
+    object-fit: cover;
+    border-radius: 50%;
+    /*margin: 2.4rem 0 2.4rem 0rem;*/
+}
+
+.user a{
+    color: #FFF;
+    text-decoration: none;
+    /*margin: 2.8rem 8.1rem 2.8rem 1.6rem;*/
+    font-size: 2rem;
+}
+
+a p {
+    margin-bottom: .8rem;
+}
+
+.user {
+    height: 10.4rem;
+    display: flex;
+}
+
+.userdescription {
+    margin-left: 1.6rem;
+}
+
+td .remove {
+    border: none;
+    color: red;
+    cursor: pointer;
+    font-size: 2rem;
 }
