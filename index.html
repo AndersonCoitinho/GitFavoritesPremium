@@ -9,73 +9,78 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <script src="js/index.js" type="module" defer></script>
     <title>GitFavorites Premium</title>
 </head>
 
 <body>
-    <nav>
-        <img id="logo" src="image/Gitfav.svg" alt="GitFav">
-        <div class="add">
-            <label for="search">aqui nao aparece</label>
-            <input id="search" type="text" placeholder="Digite o username do Github que quer favoritar">
-            <button><img src="image/EstrelaButton.svg">Favoritar</button>
-        </div>
-    </nav>
+    <div class="app">
+        <nav>
+            <img id="logo" src="image/Gitfav.svg" alt="GitFav">
+            <div class="add">
+                <label for="search">aqui nao aparece</label>
+                <input id="search" type="text" placeholder="Digite o username do Github que quer favoritar">
+                <button><img src="image/EstrelaButton.svg">Favoritar</button>
+            </div>
+        </nav>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Usuário</th>
-                <th>Repositorios</th>
-                <th>Followes</th>
-                <th>Ação</th>
-            </tr>
-        </thead>
+        <table>
+            <thead>
+                <tr>
+                    <th>Usuário</th>
+                    <th>Repositorios</th>
+                    <th>Followes</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
 
-        <tbody>
-            <tr>
-                <td class="user">
-                    <img src="https://github.com/andersoncoitinho.png" alt="Imagem do GitHub">
-                    <a href="https://github.com/andersoncoitinho" target="_blank">
-                        <div class="userdescription">
-                            <p>Anderson Coitinho</p>
-                            <span>andersoncoitinho</span>
-                        </div>
-                    </a>
-                </td>
-                <td class="repositories">
-                    50
-                </td>
-                <td class="followers">
-                    15
-                </td>
-                <td>
-                    <button class="remove">Remover</button>
-                </td>
-            </tr>
+            <tbody>
+                
+                <tr>
+                    <td class="user">
+                        <img src="https://github.com/andersoncoitinho.png" alt="Imagem do GitHub">
+                        <a href="https://github.com/andersoncoitinho" target="_blank">
+                            <div class="userdescription">
+                                <p>Anderson Coitinho</p>
+                                <span>andersoncoitinho</span>
+                            </div>
+                        </a>
+                    </td>
+                    <td class="repositories">
+                        50
+                    </td>
+                    <td class="followers">
+                        15
+                    </td>
+                    <td>
 
-            <tr>
-                <td class="user">
-                    <img src="https://github.com/maykbrito.png" alt="Imagem do GitHub">
-                    <a href="https://github.com/maykbrito" target="_blank">
-                        <div class="userdescription">
-                            <p>mayk brito</p>
-                            <span>maykbrito</span>
-                        </div>
-                    </a>
-                </td>
-                <td class="repositories">
-                    50
-                </td>
-                <td class="followers">
-                    15
-                </td>
-                <td>
-                    <button class="remove">Remover</button>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+                        <button class="remove">Remover</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="user">
+                        <img src="https://github.com/maykbrito.png" alt="Imagem do GitHub">
+                        <a href="https://github.com/maykbrito" target="_blank">
+                            <div class="userdescription">
+                                <p>mayk brito</p>
+                                <span>maykbrito</span>
+                            </div>
+                        </a>
+                    </td>
+                    <td class="repositories">
+                        50
+                    </td>
+                    <td class="followers">
+                        15
+                    </td>
+                    <td>
+                        <button class="remove">Remover</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 
 </html>

@@ -48,7 +48,7 @@ nav button {
 
 table {
     margin: auto;
-    width: 1120px;
+    width: 85rem;
     border-collapse: collapse;
     font-size: 2rem;
     border: 1px solid #4A808C;
@@ -110,6 +110,7 @@ a p {
 
 td .remove {
     border: none;
+    background: none;
     color: red;
     cursor: pointer;
     font-size: 2rem;
