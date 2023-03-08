@@ -16,23 +16,27 @@ body {
 }
 
 nav {
-    width: 112.0rem;
+    width: 85rem;
     height: 4.8rem;
     margin: 7.5rem auto;
     display: flex;
     justify-content: space-between;
+    
+
 }
 
 #logo {
     width: 18.6rem;
     height: 3.27rem;
+
 }
 
 nav input {
     font-family: var(--ff);
     font-size: 1.6rem;
     height: 4.8rem;
-    width: 45rem;
+    width: 25rem;
+    border-radius: 5px;
 }
 
 nav button {
@@ -46,12 +50,31 @@ nav button {
     width: 17rem;
 }
 
+nav button:hover {
+    background-color: rebeccapurple;
+}
+
+.sr-only {
+    position: absolute; 
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
 table {
     margin: auto;
     width: 85rem;
     border-collapse: collapse;
     font-size: 2rem;
     border: 1px solid #4A808C;
+
+    
+    
 }
 
 table tr th {
@@ -115,3 +138,23 @@ td .remove {
     cursor: pointer;
     font-size: 2rem;
 }
+
+
+/* barra de rolagem*//*
+::-webkit-scrollbar{
+   width: 6px; 
+}
+
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: red;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: black;
+}*/
+
